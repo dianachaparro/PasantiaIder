@@ -7,6 +7,7 @@ const routes: Routes = [
   { path: 'inicio', loadChildren: './inicio/inicio.module#InicioPageModule' },
   { path: 'crear-proceso', loadChildren: './crear-proceso/crear-proceso.module#CrearProcesoPageModule' },
   { path: 'inicio-diagnostico', loadChildren: './inicio-diagnostico/inicio-diagnostico.module#InicioDiagnosticoPageModule' },
+  { path: 'no-conformidades', loadChildren: './no-conformidades/no-conformidades.module#NoConformidadesPageModule' },
 ];
 
 @NgModule({
