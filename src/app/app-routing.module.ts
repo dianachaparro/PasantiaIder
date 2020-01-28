@@ -13,6 +13,7 @@ const routes: Routes = [
   { path: 'estatus-exp', loadChildren: './estatus-exp/estatus-exp.module#EstatusExpPageModule' },
   { path: 'foto', loadChildren: './foto/foto.module#FotoPageModule' },
   { path: 'info-nc', loadChildren: './info-nc/info-nc.module#InfoNcPageModule' },
+  { path: 'inicio', loadChildren: './inicio/inicio.module#InicioPageModule' },
 ];
 
 @NgModule({

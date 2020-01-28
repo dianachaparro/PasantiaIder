@@ -10,15 +10,18 @@
   <div class="ion-padding">
     <label >Usuario</label>
     <ion-item>
-      <ion-input></ion-input>
+      <ion-input type="text" [(ngModel)]="email" name="email" class="inputlogin"></ion-input>
     </ion-item>
+    <ion-item class="inputlogin">
     <label >Contraseña</label>
+    <ion-input [(ngModel)]="password" type="password" name="password"></ion-input>
+  </ion-item>
     <ion-item>
       <ion-textarea></ion-textarea>
     </ion-item>
   </div>
-  <button ion-button  (click)='abrirE()' >ENTRAR</button>
- 
+
+  <button ion-button block class="botoningreso" (click)="onSubmitLogin()" expand="block">Entrar</button>
  
      
   
