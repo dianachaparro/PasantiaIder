@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { AuthService } from "../servicios/auth.service";
+import { ModalController } from "@ionic/angular";
+import { ActionSheetController } from '@ionic/angular';
 import { Router } from "@angular/router";
-import { IonLabel } from '@ionic/angular';
-import { AuthService } from "../../servicios/auth.service";
 
 @Component({
   selector: 'app-home',
@@ -12,7 +13,7 @@ export class HomePage implements OnInit {
   email:string;
   password: string;
 
- constructor(private authService: AuthService, public router: Router) { }
+ constructor(public authService: AuthService, public router: Router) { }
 
   ngOnInit() {
   }
