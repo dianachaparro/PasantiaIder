@@ -1,5 +1,7 @@
 {
   "name": "PasantiaIder",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
